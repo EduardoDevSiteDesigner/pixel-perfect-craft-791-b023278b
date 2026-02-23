@@ -5,7 +5,7 @@ import kitDiamante from "@/assets/kit-diamante-new.png";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 
 const KitsSection = () => {
-  const { ref, isVisible } = useScrollAnimation();
+  const { ref, isVisible } = useScrollAnimation(0.02);
 
   const kits = [kitBronze, kitPrata, kitOuro, kitDiamante];
 
