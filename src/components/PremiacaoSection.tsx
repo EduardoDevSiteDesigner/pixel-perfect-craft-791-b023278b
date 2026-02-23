@@ -1,4 +1,4 @@
-import premiacaoPhoto1 from "@/assets/premiacao-photo1.jpg";
+import premiacaoPhoto1 from "@/assets/premiacao-photo-new.jpg";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 
 const PremiacaoSection = () => {

@@ -1,7 +1,7 @@
-import kitBronze from "@/assets/kit-bronze.png";
-import kitPrata from "@/assets/kit-prata.png";
-import kitOuro from "@/assets/kit-ouro.png";
-import kitDiamante from "@/assets/kit-diamante.png";
+import kitBronze from "@/assets/kit-bronze-new.png";
+import kitPrata from "@/assets/kit-prata-new.png";
+import kitOuro from "@/assets/kit-ouro-new.png";
+import kitDiamante from "@/assets/kit-diamante-new.png";
 import useScrollAnimation from "@/hooks/useScrollAnimation";
 
 const KitsSection = () => {
