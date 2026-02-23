@@ -27,9 +27,19 @@ const BienalBanner = () => {
     <section className="bg-orange py-12 md:py-16">
       <div ref={ref} className={`container mx-auto px-4 text-center ${isVisible ? 'scroll-visible' : 'scroll-hidden'}`}>
         <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl font-black text-primary-foreground leading-tight mb-10">
-          TODOS OS AUTORES PARTICIPANTES<br />
-          TERÃO HORÁRIO PARA AUTÓGRAFOS<br />
-          NA BIENAL DE SÃO PAULO 2026.
+          <span className="hidden md:inline">
+            TODOS OS AUTORES PARTICIPANTES<br />
+            TERÃO HORÁRIO PARA AUTÓGRAFOS<br />
+            NA BIENAL DE SÃO PAULO 2026.
+          </span>
+          <span className="md:hidden">
+            TODOS OS AUTORES<br />
+            PARTICIPANTES<br />
+            TERÃO HORÁRIO PARA<br />
+            AUTÓGRAFOS NA<br />
+            BIENAL DO LIVRO<br />
+            SP 2026
+          </span>
         </h2>
 
         {/* Gallery */}
