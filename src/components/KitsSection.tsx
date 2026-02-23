@@ -10,8 +10,8 @@ const KitsSection = () => {
   const kits = [kitBronze, kitPrata, kitOuro, kitDiamante];
 
   return (
-    <section className="bg-primary-foreground py-12 md:py-16">
-      <div ref={ref} className={`container mx-auto px-4 relative z-10 ${isVisible ? 'scroll-visible' : 'scroll-hidden'}`}>
+    <section className="bg-primary-foreground py-12 md:py-16 overflow-hidden">
+      <div ref={ref} className={`container mx-auto px-0 md:px-4 relative z-10 ${isVisible ? 'scroll-visible' : 'scroll-hidden'}`}>
         <h2 className="font-heading text-5xl md:text-7xl lg:text-8xl font-black text-navy text-center mb-4">
           KITS DE PUBLICAÇÃO
         </h2>
@@ -19,7 +19,7 @@ const KitsSection = () => {
           SOMENTE PARA AUTORES SELECIONADOS
         </p>
 
-        <div className="flex flex-col gap-4 max-w-6xl mx-auto -mx-4 md:mx-auto">
+        <div className="flex flex-col gap-2 md:gap-4 max-w-6xl mx-auto">
           {kits.map((kit, index) => (
             <div key={index} className="w-full">
               <img
