@@ -96,7 +96,9 @@ const QuemSomos = () => {
           </p>
 
           <h4 className="font-heading text-2xl md:text-4xl lg:text-5xl font-black text-yellow text-center mt-28 mb-24 pt-12" style={{ hyphens: 'none', wordBreak: 'keep-all' }}>
-            PRINCIPAIS REALIZAÇÕES NESSES 29 ANOS DA ARTICULE<br /><br />
+            <span className="hidden md:inline">PRINCIPAIS REALIZAÇÕES NESSES 29 ANOS DA ARTICULE</span>
+            <span className="md:hidden">PRINCIPAIS REALIZAÇÕES<br />NESSES 29 ANOS<br />DA ARTICULE</span>
+            <br /><br />
           </h4>
 
           <div className="space-y-10 mt-32">
