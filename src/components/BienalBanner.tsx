@@ -30,7 +30,7 @@ const BienalBanner = () => {
           <span className="hidden md:inline">
             TODOS OS AUTORES PARTICIPANTES<br />
             TERÃO HORÁRIO PARA AUTÓGRAFOS<br />
-            NA BIENAL DE SÃO PAULO 2026.
+            NA BIENAL DO LIVRO SÃO PAULO 2026.
           </span>
           <span className="md:hidden">
             TODOS OS AUTORES<br />

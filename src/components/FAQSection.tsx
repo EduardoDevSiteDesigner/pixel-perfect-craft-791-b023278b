@@ -74,7 +74,7 @@ const faqItems = [
     question: "A INSCRIÇÃO É GRATUITA? QUAL O PRAZO DE INSCRIÇÃO?",
     answer: (
       <div className="space-y-4">
-        <p>As inscrições são GRATUITAS e podem ser feitas até 28 DE MARÇO DE 2026, mediante preenchimento de formulário e envio do texto. O formulário pode ser encontrado no site:</p>
+        <p><p>As inscrições são GRATUITAS e podem ser feitas até 27 DE MARÇO DE 2026, mediante preenchimento de formulário e envio do texto. O formulário pode ser encontrado no site:</p>, mediante preenchimento de formulário e envio do texto. O formulário pode ser encontrado no site:</p>
         <p><a href="https://articule.art.br/poemasdeamor" className="text-accent underline" target="_blank" rel="noopener noreferrer">articule.art.br/poemasdeamor</a></p>
       </div>
     )
@@ -89,7 +89,7 @@ const faqItems = [
           <li>digitados em página tamanho A4;</li>
           <li>com margens de 3 cm;</li>
           <li>fonte Times New Roman tamanho 12;</li>
-          <li>espaçamento entre as linhas é livre;</li>
+          <li>espaçamento entre as linhas é livre.</li>
         </ul>
         <p>Os arquivos devem ser anexados em formato WORD. O título do texto deve constar na parte superior da página, alinhado à esquerda.</p>
       </div>
