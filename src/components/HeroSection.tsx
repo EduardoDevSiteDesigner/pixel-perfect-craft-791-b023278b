@@ -74,7 +74,7 @@ const HeroSection = () => {
           <div className="relative aspect-video rounded-lg overflow-hidden shadow-2xl">
             <iframe
               className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/urz9Y0mN15s"
+              src="https://www.youtube.com/embed/_wz4FxSB-xM"
               title="Poemas de Amor para Curar o Mundo"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
