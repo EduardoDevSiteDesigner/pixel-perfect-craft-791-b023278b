@@ -38,6 +38,14 @@ const COUNTRIES = [
   "Outro",
 ];
 
+const sanitizeFileName = (name: string): string => {
+  return name
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9._-]/g, "_")
+    .replace(/_+/g, "_");
+};
+
 const InscricaoForm = () => {
   const { ref, isVisible } = useScrollAnimation();
   const { toast } = useToast();
@@ -100,7 +108,7 @@ const InscricaoForm = () => {
       // Upload files to storage
       const fileUrls: string[] = [];
       for (const file of files) {
-        const fileName = `${Date.now()}-${file.name}`;
+        const fileName = `${Date.now()}-${sanitizeFileName(file.name)}`;
         const { error: uploadError } = await supabase.storage
           .from("inscricoes-files")
           .upload(fileName, file);
