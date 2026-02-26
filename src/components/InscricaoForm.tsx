@@ -60,15 +60,8 @@ const InscricaoForm = () => {
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selected = Array.from(e.target.files || []);
-    const allowed = ["application/pdf", "application/msword",
-      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "text/plain", "image/jpeg", "image/png", "image/gif", "image/bmp",
-      "application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "application/vnd.ms-powerpoint", "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-      "application/rtf"];
-
     const valid = selected.filter(f => {
-      if (!allowed.includes(f.type) && !f.name.match(/\.(pdf|doc|docx|txt|rtf|jpg|jpeg|png|gif|bmp|xls|xlsx|ppt|pptx|odt|ods|odp)$/i)) {
+      if (!f.name.match(/\.(pdf|doc|docx|dot|dotx|docm|dotm|txt|rtf|jpg|jpeg|png|gif|bmp|xls|xlsx|ppt|pptx|odt|ods|odp|wps|wpd)$/i)) {
         toast({ title: "Arquivo não permitido", description: `"${f.name}" não é um tipo válido.`, variant: "destructive" });
         return false;
       }
@@ -318,7 +311,7 @@ const InscricaoForm = () => {
                 ref={fileInputRef}
                 type="file"
                 multiple
-                accept=".pdf,.doc,.docx,.txt,.rtf,.jpg,.jpeg,.png,.gif,.bmp,.xls,.xlsx,.ppt,.pptx,.odt,.ods,.odp"
+                accept=".pdf,.doc,.docx,.dot,.dotx,.docm,.dotm,.txt,.rtf,.jpg,.jpeg,.png,.gif,.bmp,.xls,.xlsx,.ppt,.pptx,.odt,.ods,.odp,.wps,.wpd"
                 onChange={handleFileChange}
                 className="hidden"
               />
