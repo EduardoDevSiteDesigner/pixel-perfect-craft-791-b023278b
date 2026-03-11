@@ -153,6 +153,10 @@ const InscricaoForm = () => {
       fetch(WEBHOOK_URL, { method: "POST", body: formData }).catch(() => { });
 
       setIsSubmitted(true);
+      // Dispara evento PageView do Meta Pixel após conclusão do formulário
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'PageView');
+      }
       toast({ title: "Inscrição enviada!", description: "Seu poema foi enviado com sucesso." });
       reset();
       setFiles([]);
