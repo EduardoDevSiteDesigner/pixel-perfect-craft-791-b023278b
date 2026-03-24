@@ -353,7 +353,15 @@ const InscricaoForm = () => {
               className="mt-1 w-5 h-5 rounded border-white/30 accent-primary cursor-pointer"
             />
             <label htmlFor="termos" className="text-white text-sm cursor-pointer">
-              Declaro ter lido e concordar com os Termos do Regulamento. *
+              Declaro ter lido e concordar com os{" "}
+              <a
+                href="https://articule.art.br/wp-content/uploads/2026/02/REGULAMENTO-POEMAS-DE-AMOR-PARA-CURAR-O-MUNDO-2026.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent underline hover:text-accent/80 transition-colors"
+              >
+                Termos do Regulamento
+              </a>. *
             </label>
           </div>
           {errors.termos && <p className={errorClass}>{errors.termos.message}</p>}
