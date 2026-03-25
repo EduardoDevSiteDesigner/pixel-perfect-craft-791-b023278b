@@ -52,7 +52,7 @@ const HeroSection = () => {
               LANÇAMENTO NA BIENAL<br />DO LIVRO SÃO PAULO 2026.
             </h2>
             <a
-              href="#inscricao"
+              href="#kits"
               className="inline-block bg-yellow text-navy font-heading text-2xl md:text-3xl font-bold py-5 px-14 hover:bg-yellow/90 transition-colors rounded-full"
             >
               INSCREVA-SE AGORA

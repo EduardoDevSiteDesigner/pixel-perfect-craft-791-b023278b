@@ -195,6 +195,16 @@ const InscricaoForm = () => {
         <h2 className="font-heading text-4xl md:text-5xl font-black text-navy text-center mb-8">
           FORMULÁRIO DE INSCRIÇÃO
         </h2>
+        <p className="text-center mb-2 text-xl md:text-2xl font-heading font-bold">
+          <a
+            href="https://articule.art.br/wp-content/uploads/2026/02/REGULAMENTO-POEMAS-DE-AMOR-PARA-CURAR-O-MUNDO-2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline hover:text-white/80 transition-colors"
+          >
+            LEIA O REGULAMENTO,
+          </a>
+        </p>
         <p className="text-center text-navy mb-8 text-xl md:text-2xl font-heading font-bold">PREENCHA SEUS DADOS E ANEXE SEU TEXTO.</p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 bg-navy/40 backdrop-blur-sm rounded-2xl p-6 md:p-10 border border-white/10">
