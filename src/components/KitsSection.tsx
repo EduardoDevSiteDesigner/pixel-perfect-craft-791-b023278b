@@ -8,10 +8,10 @@ const KitsSection = () => {
   const { ref, isVisible } = useScrollAnimation(0.02);
 
   const kits = [
-    { src: kitBronze, name: "Bronze", color: "#CD7F32" },
-    { src: kitPrata, name: "Prata", color: "#A0A0A0" },
-    { src: kitOuro, name: "Ouro", color: "#DAA520" },
-    { src: kitDiamante, name: "Diamante", color: "#4FC3F7" },
+    { src: kitBronze, name: "Bronze", color: "#613582" },
+    { src: kitPrata, name: "Prata", color: "#172c64" },
+    { src: kitOuro, name: "Ouro", color: "#004e56" },
+    { src: kitDiamante, name: "Diamante", color: "#760f40" },
   ];
 
   return (
@@ -25,14 +25,16 @@ const KitsSection = () => {
         </p>
 
         {/* Mobile: column layout */}
-        <div className="flex flex-col gap-6 max-w-6xl mx-auto md:hidden">
+        <div className="flex flex-col gap-2 max-w-6xl mx-auto md:hidden">
           {kits.map((kit, index) => (
             <div key={index} className="w-full flex flex-col items-center">
-              <img
-                src={kit.src}
-                alt={`Kit ${kit.name}`}
-                className="w-full rounded-none"
-              />
+              <a href="#inscricao" className="w-full overflow-hidden rounded-none block">
+                <img
+                  src={kit.src}
+                  alt={`Kit ${kit.name}`}
+                  className="w-full transition-transform duration-300 hover:scale-105 cursor-pointer"
+                />
+              </a>
               <a
                 href="#inscricao"
                 style={{ backgroundColor: kit.color }}
@@ -48,11 +50,13 @@ const KitsSection = () => {
         <div className="hidden md:grid grid-cols-2 gap-6 max-w-6xl mx-auto">
           {kits.map((kit, index) => (
             <div key={index} className="flex flex-col items-center">
-              <img
-                src={kit.src}
-                alt={`Kit ${kit.name}`}
-                className="w-full rounded-lg"
-              />
+              <a href="#inscricao" className="w-full overflow-hidden rounded-lg block">
+                <img
+                  src={kit.src}
+                  alt={`Kit ${kit.name}`}
+                  className="w-full transition-transform duration-300 hover:scale-105 cursor-pointer"
+                />
+              </a>
               <a
                 href="#inscricao"
                 style={{ backgroundColor: kit.color }}
