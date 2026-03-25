@@ -70,7 +70,7 @@ const QuemSomos = () => {
 
   return (
     <section className="bg-navy py-12 md:py-16">
-      <div ref={ref} className={`container mx-auto px-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+      <div ref={ref} className={`container mx-auto px-6 md:px-4 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         <div className="flex items-center justify-center gap-8 md:gap-16 mb-8">
           <h2 className="font-heading text-4xl md:text-5xl font-black text-primary-foreground">
             QUEM SOMOS
