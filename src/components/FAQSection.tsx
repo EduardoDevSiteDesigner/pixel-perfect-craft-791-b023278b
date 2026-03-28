@@ -74,7 +74,7 @@ const faqItems = [
     question: "A INSCRIÇÃO É GRATUITA? QUAL O PRAZO DE INSCRIÇÃO?",
     answer: (
       <div className="space-y-4">
-        <p>As inscrições são GRATUITAS e podem ser feitas até 27 DE MARÇO DE 2026, mediante preenchimento de formulário e envio do texto. O formulário pode ser encontrado no site:</p>
+        <p>As inscrições são GRATUITAS e podem ser feitas até 17 DE ABRIL DE 2026, mediante preenchimento de formulário e envio do texto. O formulário pode ser encontrado no site:</p>
         <p><a href="https://articule.art.br/poemasdeamor" className="text-accent underline" target="_blank" rel="noopener noreferrer">articule.art.br/poemasdeamor</a></p>
       </div>
     )
