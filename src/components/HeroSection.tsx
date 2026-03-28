@@ -51,16 +51,17 @@ const HeroSection = () => {
             <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-yellow leading-tight mb-8 whitespace-nowrap">
               LANÇAMENTO NA BIENAL<br />DO LIVRO SÃO PAULO 2026.
             </h2>
+            <div className="mb-6 bg-white px-6 py-4 inline-block">
+              <p className="font-heading text-xl md:text-2xl font-bold" style={{ color: 'hsl(300 50% 35%)' }}>INSCRIÇÕES PRORROGADAS</p>
+              <p className="font-heading text-2xl md:text-3xl font-black" style={{ color: 'hsl(300 50% 35%)' }}>ATÉ: 17/ABR/2026</p>
+            </div>
+            <br />
             <a
               href="#kits"
               className="inline-block bg-yellow text-navy font-heading text-2xl md:text-3xl font-bold py-5 px-14 hover:bg-yellow/90 transition-colors rounded-full"
             >
               INSCREVA-SE AGORA
             </a>
-            <div className="mt-6 bg-yellow/20 border-2 border-yellow rounded-xl px-6 py-4 inline-block">
-              <p className="font-heading text-xl md:text-2xl font-bold text-white">INSCRIÇÕES PRORROGADAS</p>
-              <p className="font-heading text-2xl md:text-3xl font-black text-yellow">ATÉ: 17/ABR/2026</p>
-            </div>
           </div>
           <div className="flex-shrink-0 w-[360px] md:w-[520px] lg:w-[680px] xl:w-[800px] md:-ml-16 lg:-ml-24">
             <img
