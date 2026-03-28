@@ -57,6 +57,10 @@ const HeroSection = () => {
             >
               INSCREVA-SE AGORA
             </a>
+            <div className="mt-6 bg-yellow/20 border-2 border-yellow rounded-xl px-6 py-4 inline-block">
+              <p className="font-heading text-xl md:text-2xl font-bold text-white">INSCRIÇÕES PRORROGADAS</p>
+              <p className="font-heading text-2xl md:text-3xl font-black text-yellow">ATÉ: 17/ABR/2026</p>
+            </div>
           </div>
           <div className="flex-shrink-0 w-[360px] md:w-[520px] lg:w-[680px] xl:w-[800px] md:-ml-16 lg:-ml-24">
             <img
