@@ -52,11 +52,11 @@ const HeroSection = () => {
               LANÇAMENTO NA BIENAL<br />DO LIVRO SÃO PAULO 2026.
             </h2>
             <div className="mb-6 bg-white px-6 py-4 inline-block">
-              <p className="font-heading text-xl md:text-2xl font-black" style={{ color: 'hsl(300 50% 35%)' }}>INSCRIÇÕES PRORROGADAS ATÉ: 17/ABR/2026</p>
+              <p className="font-heading text-xl md:text-2xl font-black" style={{ color: 'hsl(300 50% 35%)' }}>ÚLTIMOS DIAS DE INSCRIÇÃO ATÉ: 17/ABR/2026</p>
             </div>
             <br />
             <a
-              href="#kits"
+              href="#inscricao"
               className="inline-block bg-yellow text-navy font-heading text-2xl md:text-3xl font-bold py-5 px-14 hover:bg-yellow/90 transition-colors rounded-full"
             >
               INSCREVA-SE AGORA
