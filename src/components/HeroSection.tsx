@@ -51,8 +51,32 @@ const HeroSection = () => {
             <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-yellow leading-tight mb-8 whitespace-nowrap">
               LANÇAMENTO NA BIENAL<br />DO LIVRO SÃO PAULO 2026.
             </h2>
-            <div className="mb-6 bg-white px-6 py-4 inline-block">
-              <p className="font-heading text-xl md:text-2xl font-black" style={{ color: 'hsl(300 50% 35%)' }}>INSCRIÇÕES ENCERRADAS</p>
+            <div className="mb-6 flex flex-col sm:flex-row gap-3">
+              <a
+                href="https://articule.art.br/wp-content/uploads/2026/07/LISTA-PARTICIPANTES-POEMAS-DE-AMOR-PARA-CURAR-O-MUNDO-2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white px-5 py-3 font-heading text-sm md:text-base font-black hover:bg-yellow transition-colors rounded"
+                style={{ color: 'hsl(300 50% 35%)' }}
+              >
+                LISTA DE PARTICIPANTES
+              </a>
+              <div
+                className="bg-white/60 px-5 py-3 font-heading text-sm md:text-base font-black cursor-not-allowed rounded flex flex-col items-center"
+                style={{ color: 'hsl(300 50% 35%)' }}
+                title="Em breve"
+              >
+                <span>LISTA DE FINALISTAS</span>
+                <span className="text-xs font-semibold opacity-80">EM BREVE · 24/JUL/26</span>
+              </div>
+              <div
+                className="bg-white/60 px-5 py-3 font-heading text-sm md:text-base font-black cursor-not-allowed rounded flex flex-col items-center"
+                style={{ color: 'hsl(300 50% 35%)' }}
+                title="Em breve"
+              >
+                <span>LISTA DE VENCEDORES</span>
+                <span className="text-xs font-semibold opacity-80">EM BREVE · 31/JUL/26</span>
+              </div>
             </div>
           </div>
           <div className="flex-shrink-0 w-[360px] md:w-[520px] lg:w-[680px] xl:w-[800px] md:-ml-16 lg:-ml-24">
