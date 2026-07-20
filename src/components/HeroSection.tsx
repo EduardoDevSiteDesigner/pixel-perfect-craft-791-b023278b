@@ -56,7 +56,7 @@ const HeroSection = () => {
                 href="https://articule.art.br/wp-content/uploads/2026/07/LISTA-PARTICIPANTES-POEMAS-DE-AMOR-PARA-CURAR-O-MUNDO-2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white px-5 py-3 font-heading text-sm md:text-base font-black hover:bg-yellow transition-colors rounded"
+                className="bg-white px-5 py-3 font-heading text-sm md:text-base font-black hover:bg-yellow transition-colors rounded flex items-center justify-center text-center"
                 style={{ color: 'hsl(300 50% 35%)' }}
               >
                 LISTA DE PARTICIPANTES
