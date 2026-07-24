@@ -61,14 +61,15 @@ const HeroSection = () => {
               >
                 LISTA DE PARTICIPANTES
               </a>
-              <div
-                className="bg-white/60 px-5 py-3 font-heading text-sm md:text-base font-black cursor-not-allowed rounded flex flex-col items-center"
+              <a
+                href="https://articule.art.br/wp-content/uploads/2026/07/LISTA-FINALISTAS-POEMAS-DE-AMOR-PARA-CURAR-O-MUNDO-2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white px-5 py-3 font-heading text-sm md:text-base font-black hover:bg-yellow transition-colors rounded flex items-center justify-center text-center"
                 style={{ color: 'hsl(300 50% 35%)' }}
-                title="Em breve"
               >
-                <span>LISTA DE FINALISTAS</span>
-                <span className="text-xs font-semibold opacity-80">EM BREVE · 24/JUL/26</span>
-              </div>
+                LISTA DE FINALISTAS
+              </a>
               <div
                 className="bg-white/60 px-5 py-3 font-heading text-sm md:text-base font-black cursor-not-allowed rounded flex flex-col items-center"
                 style={{ color: 'hsl(300 50% 35%)' }}
